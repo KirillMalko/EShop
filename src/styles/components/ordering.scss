@@ -1,0 +1,73 @@
+.modal-order {
+  position: relative;
+  flex-basis: 450px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 50px;
+  &__title {
+    color: #000;
+  }
+  &__info {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #8b8b8b;
+    margin: 15px 0 0 0;
+  }
+  &__input-phone-num {
+    width: 100%;
+    height: 47.5px;
+    border-radius: 8px;
+    background: #ffffff;
+    border: 2px solid $main-clr;
+    margin-top: 5px;
+    padding: 10px;
+
+    &::placeholder {
+      text-align: center;
+      color: rgba(215, 215, 215, 0.9);
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &__btn-accept {
+    margin-top: 15px;
+    background: $main-clr;
+    color: #fff;
+    width: 100%;
+    height: 47.5px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.2s;
+    &:hover {
+      background-color: #e313ba;
+    }
+    &:active {
+      transform: scale(0.98);
+    }
+  }
+  &__terms {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #8b8b8b;
+    margin: 15px 0 0 20px;
+    max-width: 320px;
+    position: relative;
+    &::before {
+      content: '';
+      border-right: 2px solid $main-clr;
+      border-bottom: 2px solid $main-clr;
+      transform: rotate(45deg);
+      display: inline-block;
+      position: absolute;
+      width: 5px;
+      height: 11px;
+      left: -15px;
+    }
+  }
+}

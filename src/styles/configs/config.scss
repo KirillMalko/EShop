@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+  font-family: 'roboto';
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  padding: 15px 0;
+  flex: 1;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+$main-clr: #f19e09;

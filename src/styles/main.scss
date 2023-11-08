@@ -1,0 +1,24 @@
+@import './configs/rezet.scss';
+@import './configs/normalize.scss';
+@import './fonts.scss';
+@import './configs/config.scss';
+@import './components/quickNavButtons.scss';
+@import './components/container.scss';
+@import './sections/main-header.scss';
+@import './components/close-modal-btn.scss';
+@import './sections/basket.scss';
+@import './sections/authorization.scss';
+@import './components/emptyBasket.scss';
+@import './components/modal-background.scss';
+@import './components/ordering.scss';
+@import './sections/banner.scss';
+@import './sections/product-cards.scss';
+@import './components/loader.scss';
+@import './components/product-card.scss';
+@import './components/show-more-btn.scss';
+@import './components/basketCard.scss';
+@import './components/big-product-cards.scss';
+@import './sections/main-footer.scss';
+main{
+  background: #4b4747;
+}

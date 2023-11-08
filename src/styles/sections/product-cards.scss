@@ -1,0 +1,34 @@
+.product-cards {
+  background:radial-gradient( #f19e09, #4b4747 70%);
+  padding: 40px 0 56px 0;
+  &__card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    position: relative;
+  }
+
+  &__tittle {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 700;
+    color: $main-clr;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .product-cards__container {
+    grid-template-columns: repeat(auto-fit, minmax(147px, 1fr));
+  }
+}
+@media (max-width: 377px) {
+  .product-cards__container {
+    grid-template-columns: repeat(auto-fit, minmax(138px, 210px));
+    justify-content: center;
+  }
+}
